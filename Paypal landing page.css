@@ -1,0 +1,483 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    /* border: 3px solid black; */
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+#buttonOne, #buttonTwo{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+}
+
+#buttonOne{
+    background-color: white;
+    color: rgb(2, 55, 136);
+    border: 1px solid rgb(2, 55, 136);
+    border-radius: 40px;
+}
+
+#buttonTwo{
+    background-color: rgb(2, 55, 136);
+    color: white;
+}
+#buttonTwo{
+    background-color: rgb(2, 55, 136);
+    color: white;
+}
+#button_three{
+    margin-top: 50px;
+    background-color: white;
+    color: rgb(10, 126, 204);
+    border: 1px solid rgb(10, 126, 204);
+    width: 180px;
+    height: 55px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+
+img{
+    height: 50px;
+    width:120px;
+    /* margin-right: 50px; */
+
+}
+
+#first_section{
+    background-image: url(../../Downloads/homepage-hero-1x.jpg);
+    width: 100%;
+    height: 450px;
+    /* border: 2px solid green; */
+    background-size: cover;
+}
+/* this is the container holding the content in section  */
+.holder {
+    border: none solid red;
+    width: 100%;
+    height: 250px;
+    padding-top: 150px;
+}
+
+h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+h3{
+    font-size: 20px;
+    margin-top: 25px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 30px;
+} 
+
+#p1{
+    color: darkslategrey;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: normal;
+    padding-top: 30px;
+} 
+#p2{
+    color: black;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: normal;
+    padding-top: 30px;
+    text-decoration: underline;
+    offset: 70px;
+}
+
+
+#Sign_up{
+color: white;
+font-weight: bold;
+background-color: rgb(2, 109, 171);
+width: 400px;
+height: 50px;
+border-radius: 30px;
+border: none;
+align-items: center;
+font-size: 15px;
+display: block;
+margin: auto;
+}
+
+#second_section{
+    width: 100%;
+    height: 450px;
+    /* border: 2px solid green; */
+    background-color: white;
+    color: black;
+    display: inline;
+    margin-top: 45px;
+    display: block;
+    padding-top: 70px;
+    text-align: center;
+}
+
+#text_section2{
+    font-family: sa;
+    font-weight: 50;
+    font-size: 40px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+
+#second_section_img{
+    height: 100px;
+    width: 90px;
+    margin-top: 50px;
+    display: block;
+}
+ 
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(234, 244, 251);
+    padding-top: 60px;
+    
+}
+#imageholder{
+    height: fit-content;
+    display: flex;
+    /* justify-content: space-evenly; */
+    border: 0px solid red;
+    
+    align-items: center;
+}
+#imageholder > #stressful{
+    align-items: center;
+    /* margin: auto; */
+    justify-content: space-evenly;
+}
+
+#stressful{
+    height: 200px;
+    width: 350px;
+    border: 0px solid red;
+    display: flex;
+    margin: auto;
+    padding-top: 40px;
+    
+
+}
+
+/* Target the images inside. */
+#test{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+
+}
+
+#text_below_image > #div_inside{
+    display: block;
+    border: 0px solid red;
+    height: 30px;
+    width: 350px;
+    justify-content: space-evenly;
+      
+}
+
+#text_below_image{
+   display: flex; 
+   margin: auto;
+   justify-content: space-evenly;
+   color: darkslategrey;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: normal;
+
+}
+
+#number_below{
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgb(125, 124, 124);
+    border-radius: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+#button_under{
+    color: steelblue;
+    background-color: rgb(234, 244, 251);
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid steelblue;
+    cursor: pointer;
+
+    
+}
+
+#button_div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 0px solid black;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+/* This section is the div where two cotainers hold texts side by side */
+#parent_div{
+    width: 100%;
+    height: 70vh;
+    border: 1px solid black;
+    background-color: rgb(0, 48, 135);
+    align-items: center;
+}
+
+#first_child{
+    display: inline;
+    text-align: center;
+    border: 1px solid white;
+    margin-bottom: 30px;
+    align-items: center;
+}
+#first_child > p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+#second_child{
+    display: flex;
+    width: 100%;
+    border: 0px solid wheat;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+
+}
+#text1_div{
+    display: inline;
+    border:0px solid white;
+    width: 45%;
+    height: 250px;
+    text-align:end;
+    margin-left: 60px;
+    margin-right: 20px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#text2_div{
+    display: inline;
+    border: 0px solid white;
+    width: 45%;
+    height: 200px;
+    text-align: start;
+    margin-right: 60px;
+    margin-left: 20px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#text2_div > h1{
+    text-align: start;
+    color: aliceblue;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: normal;
+    font-weight: 400px;
+    margin-bottom: -15px;
+}
+
+#text2_div > p{
+    text-align: start;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: normal;
+    margin-top: -25px;
+}
+
+#text2_div > h2{
+    text-align: start;
+    color: aliceblue;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: normal;
+    margin-top: -25px;
+}
+
+
+/* First one ends here */
+#text1_div > h1{
+    text-align: start;
+    color: aliceblue;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: normal;
+    font-weight: 100px;
+    margin-bottom: -25px;
+}
+
+#text1_div > p{
+    text-align: start;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: normal;
+}
+
+#text1_div > h2{
+    text-align: start;
+    color: aliceblue;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: normal;
+    margin-top: -25px;
+}
+
+#b4_footer{
+    height: 40vh;
+    border: 2px solid black;
+    background-color: #f7f9fa;
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+   
+}
+
+#p3{
+    text-align: start;
+    color: black;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: normal;
+    margin-top: -25px; 
+}
+
+#button_div4{
+    text-align: center;
+    background-color: rgb(0,112,186);
+    width: 250px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: normal;
+    color: white;
+    border-radius: 20px;
+    height: 40px;
+}
+
+#b4_footer > #divp3{
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+}
+
+#b4_footer > #divp4{
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+}
+
+
+#divFour{
+    background-color: rgb(218, 227, 232);
+    /* border: 3px solid red; */
+    width: 100%;
+    height: 50vh;
+}
+
+#pNine{
+    padding-top: 90px;
+    /* margin-top: 50px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    font-kerning: auto;
+    line-height: 35px;
+    color: rgb(44, 46, 47);
+}
+
+#buttonSix{
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: steelblue;
+    margin-top: 20px;
+    /* margin-bottom: 100px; */
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    /* border-color: white; */
+    border: 2px solid whitesmoke;
+}
+
+footer {
+    height: 40vh;
+    background-color: aqua;
+}
+
+#footer_lists{
+    margin: 0px;
+    height: 50px;
+    width: 80%;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 50px;
+}
+
+#footer_lists > ul{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    
+}
+
+#navulOne{
+    /* border-bottom: 1px solid black; */
+    font-weight: bold;
+    width: 40%;
+                                                                                                    
+}
+
+#footer_lists > ul > li{
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+}
